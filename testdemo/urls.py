@@ -21,5 +21,5 @@ from . import views
 urlpatterns = [
     # path('admin/', admin.site.urls),
     # path('arcicle/2003/',views.special_case_2003)
-    path('login.html/',views.login,name="login")
+    path('login/',views.login,name="login")
 ]
